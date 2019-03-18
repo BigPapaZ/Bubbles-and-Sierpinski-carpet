@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Bubbles
+comment1.params=row\ col
+comment1.target=int\ bubbleMoney(int,\ int)
+comment1.text=\r\n\ \ \ \ public\ static\ int\ bubbleMoney(int\ row,\ int\ col)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ if(row<0||col<0||col>7){return\ 0;}\r\n\ \ \ \ \ \ \ \ else\ if\ (row\=\=0){return\ values[row][col];}\r\n\ \ \ \ \ \ \ \ else{int\ x\=values[row][col]+bubbleMoney(row-1,col-1);int\ y\=values[row][col]+bubbleMoney(row-1,col+1);if(x>y)return\ x;else\ return\ y;}}\r\n
+comment2.params=row\ col\ memo
+comment2.target=int\ memoHelper(int,\ int,\ int[][])
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
